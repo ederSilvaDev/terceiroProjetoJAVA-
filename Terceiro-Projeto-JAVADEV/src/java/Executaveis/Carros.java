@@ -4,7 +4,9 @@ public class Carros {
 	
 	private String modelo;
 	private String marca;
-	private String tipo;
+	private String tipo;	
+	private String cor;
+	private String motor;
 	
 	public String getModelo() {
 		return modelo;
@@ -36,7 +38,5 @@ public class Carros {
 	public void setMotor(String motor) {
 		this.motor = motor;
 	}
-	private String cor;
-	private String motor;
 
 }
